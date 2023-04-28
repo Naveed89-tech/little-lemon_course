@@ -1,0 +1,23 @@
+.section-about {
+  background-color: #edefee;
+  padding: 9.6rem 0;
+}
+.section-about .heading-secondary {
+  color: #495e57;
+  margin: 0;
+}
+.section-about .text-description {
+  color: #333;
+}
+.section-about .branch-title {
+  color: #333;
+}
+.section-about .image-box {
+  transform: none;
+  background-color: #edefee;
+}
+
+.meal-img {
+  width: 100%;
+  height: 100%;
+}

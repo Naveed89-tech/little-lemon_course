@@ -1,28 +1,32 @@
-@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@700&display=swap");
-:root {
-  --main-text-color: #00252e;
-  --text-color: #5d5f79;
-  --text-black-color: #c5c6ce;
-  --primary-btn-color: #ff52bf;
-  --light-pink-color: #ff8fd8;
-  --light-red-color: #ff4242;
-  --style-background-color: #f5faff;
-  --white-color: #ffffff;
+@import url("https://fonts.googleapis.com/css2?family=Markazi+Text:wght@500&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Karla&display=swap");
 
-  /* font styles  */
-  --font: "Poppins", sans-serif;
+/* primary-color:#495E57; */
+/* primary-second-color:#F4CE14 */
+/* secondary-color:
+----#EE9972
+----#FBDABB
+*/
+/* highlight-colors:
+---#EDEFEE
+-----#333333 */
+/* tint & shades  
+----#BACAC5
+*/
+/* Meals titles */
+/* spacing
+2/4/8/12/16/24/32/48/64/80/96/128*/
+/* font-size
+10/12/14/16/18/20/24/30/36/44/52/62/74/86/98*/
+.section-meal {
+  padding: 9.6rem 0;
 }
-
 * {
-  scroll-behavior: smooth;
+  box-sizing: border-box;
   padding: 0;
   margin: 0;
 }
-*,
-*::before,
-*::after {
-  box-sizing: inherit;
-}
+
 html {
   /* 1rem=16px 10/16*100 */
   font-size: 62.5%;
@@ -40,42 +44,112 @@ a {
 
 body {
   font-weight: 400;
-  font-family: var(--font);
-  color: var(--main-text-color);
-  background-color: var(--white-color);
+  font-family: "Karla", sans-serif;
+  color: #333333;
+  background-color: #fefefe;
 }
 /* header */
-header {
-  height: 4rem;
-  padding-top: 2rem;
-  max-width: 120rem;
-  margin: 0 auto;
-  padding: 1rem 3.2rem;
-}
+
 .logo_img {
   max-width: 100%;
 }
-.navigation {
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
-  color: var(--text-color);
-  font-size: 1.5rem;
-  margin-top: 2rem;
-  margin-bottom: 2rem;
-}
-.navigation_list {
-  list-style: none;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  flex-direction: row;
-  gap: 4rem;
-  cursor: pointer;
-}
 
-.navigation_list_item {
+/* general  */
+.container {
+  max-width: 120rem;
+  margin: 0 auto;
+  padding: 0 3.2rem;
+}
+.flex {
+  display: flex;
+}
+.flex-column {
+  flex-direction: column;
+}
+.btn,
+.btn:link,
+.btn:visited {
+  color: #333333;
+  text-decoration: none;
+  font-family: "Markazi Text", serif;
+  display: inline-block;
+  border-radius: 5px;
   font-size: 1.8rem;
   font-weight: 500;
-  color: var(--main-text-color);
+  text-transform: capitalize;
+  /* margin-bottom: 3.2rem; */
+  padding: 1.6rem 3.2rem;
+  cursor: pointer;
+  background: #f4ce14;
+}
+
+.btn:hover,
+.btn:active {
+  opacity: 60%;
+  transition: all 0.5s;
+}
+/* heading 
+ */
+.heading-primary {
+  color: #f4ce14;
+  font-family: "Markazi Text", serif;
+  font-size: 7.4rem;
+  font-weight: 500;
+  letter-spacing: -0.5px;
+  line-height: 1.1;
+}
+
+.heading-secondary {
+  color: #495e57;
+  font-size: 6.2rem;
+  font-family: "Markazi Text", serif;
+  font-weight: 400;
+  letter-spacing: -0.5px;
+  line-height: 1.1;
+  margin-bottom: 3.2rem;
+}
+.heading-tertiary {
+  color: #f4ce14;
+  font-family: "Markazi Text", serif;
+  font-size: 2.4rem;
+  font-weight: 400;
+  letter-spacing: -0.5px;
+  line-height: 1.1;
+}
+
+.subheading {
+  color: #2d314d;
+  font-size: 2rem;
+  font-weight: 400;
+  letter-spacing: -0.5px;
+  line-height: 1.1;
+}
+.subheading:hover,
+.subheading:active {
+  color: #31d35c;
+  cursor: pointer;
+}
+.grid {
+  display: grid;
+  column-gap: 6.4rem;
+  row-gap: 9.6rem;
+  margin-bottom: 9.6rem;
+}
+.center--align {
+  align-self: center;
+}
+.grid--two--col {
+  grid-template-columns: repeat(2, 1fr);
+}
+.grid--three--col {
+  grid-template-columns: repeat(3, 1fr);
+}
+.grid--four--col {
+  grid-template-columns: repeat(4, 1fr);
+}
+.grid--five--col {
+  grid-template-columns: repeat(5, 1fr);
+}
+.grid:not(:last-child) {
+  margin-bottom: 9.6rem;
 }

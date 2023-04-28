@@ -1,0 +1,30 @@
+header {
+  height: 4rem;
+
+  max-width: 120rem;
+  margin: 0 auto;
+  padding: 1rem 3.2rem;
+  padding-top: 3.2rem !important;
+}
+.navigation {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.navigation_list {
+  list-style: none;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: row;
+  gap: 4rem;
+  cursor: pointer;
+  font-style: 800;
+  font-size: 1.8rem;
+  cursor: pointer;
+  color: #495e57;
+  margin-top: 1.2rem;
+}
+
+.navigation .navigation_list_item {
+}

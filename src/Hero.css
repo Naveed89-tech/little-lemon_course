@@ -1,0 +1,82 @@
+/* ***************** */
+/* *Hero section  */
+/* **************** */
+/* spacing
+2/4/8/12/16/24/32/48/64/80/96/128*/
+/* font-size
+10/12/14/16/18/20/24/30/36/44/52/62/74/86/98*/
+.section-hero {
+  background-color: #495e57;
+  margin: 9.6rem 0;
+}
+.hero {
+  margin: 0 auto;
+  display: grid;
+  padding-left: 3.2rem;
+  grid-template-columns: 1fr 2fr;
+  align-items: center;
+  gap: 3.2rem;
+}
+.branch-title {
+  display: block;
+  color: #edefee;
+  font-family: "Markazi Text", serif;
+  font-size: 4.4rem;
+  font-weight: 500;
+  letter-spacing: -0.5px;
+  line-height: 1.1;
+  margin-bottom: 3.2rem;
+}
+.image-box {
+  width: 100%;
+  transform: translateY(90px);
+}
+.meal-img {
+  width: 100%;
+  height: 100%;
+}
+/* .hero-img-box {
+  position: relative;
+}
+
+.mock-up {
+  position: absolute;
+  right: -25rem;
+  top: -1rem;
+}
+.mock-up > img {
+  width: 100%;
+} */
+.text-description {
+  font-size: 1.8rem;
+  color: #edefee;
+  font-family: ;
+  margin-bottom: 4.8rem;
+  line-height: 1.6;
+}
+.hero-description {
+  max-width: 45rem;
+}
+/* ***************** */
+/* * section-feature */
+/* **************** */
+.section-feature {
+  background-color: #f3f4f6;
+  padding: 9.6rem 0;
+}
+.features-container {
+}
+.feature-text {
+  max-width: 64rem;
+  margin-bottom: 6.4rem;
+}
+.feature-box {
+  display: flex;
+  gap: 2.4rem;
+}
+.feature {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  gap: 3.2rem;
+}

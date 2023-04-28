@@ -1,0 +1,108 @@
+.section-meal {
+  background-color: #edefee;
+}
+.meal-box {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 3.2rem;
+}
+.meal-box .heading-secondary {
+  color: #495e57;
+}
+.meal-card {
+  box-shadow: 0 2px 10px rgba(0, 0, 0, 0.5);
+  border-radius: 11px;
+  overflow: hidden;
+  padding-bottom: 2.4rem;
+}
+.meal-card:hover {
+  transform: translateY(-1.2rem);
+  box-shadow: 0 2px 10px rgba(0, 0, 0, 0.5);
+}
+.meal-image {
+  height: 30rem;
+}
+.tag {
+  display: inline-block;
+  padding: 0.4rem 0.8rem;
+  margin-right: 0.5rem;
+  font-size: 1.2rem;
+  font-weight: 600;
+  text-transform: uppercase;
+  line-height: 1;
+  color: #333;
+  border-radius: 1.5rem;
+  letter-spacing: 1px;
+}
+.tag--vegan {
+  background-color: #c0eb75;
+}
+.tag--peluo {
+  background-color: #ffe066;
+}
+.tag--vegtarian {
+  background-color: #69db7c;
+}
+.tag--pudding {
+  background-color: #e6d88e;
+}
+.tag--dessert {
+  background-color: #948d84;
+}
+.meal-title {
+  font-size: 2.4rem;
+  font-weight: 600;
+  line-height: 1;
+  letter-spacing: 1.5px;
+  font-family: "Markazi Text", serif;
+}
+
+.meal-attributes {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  gap: 1.6rem;
+  list-style: none;
+}
+.meal-attribute {
+  display: flex;
+  align-items: center;
+  column-gap: 1.4rem;
+}
+.meal-attribute .fas {
+  color: #f59f00;
+}
+.meal-content {
+  padding: 3.2rem 1.8rem 4.8rem 1.8rem;
+}
+.meal-content .text-description {
+  color: #333;
+  margin-bottom: 2.4rem;
+  min-height: 15rem;
+}
+.title-price {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 2.4rem;
+}
+.meal-price {
+  color: #ee9972;
+  font-size: 1.4rem;
+}
+.meal-content .delivery {
+  display: flex;
+  gap: 2.4rem;
+  align-items: center;
+  padding: 0;
+  background-color: inherit;
+  margin-bottom: auto;
+}
+.bucket {
+  max-width: 70%;
+}
+.bucket .btn {
+  font-size: 2.4rem;
+  color: #495e57;
+}
