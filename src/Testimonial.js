@@ -43,9 +43,6 @@ function Testimonial() {
                     d="M12 2L15.09 8.26L22 9.27L17 14.14L18.18 21.02L12 17.77L5.82 21.02L7 14.14L2 9.27L8.91 8.26L12 2Z"
                     fill="#F4CE14"
                     stroke="#F4CE14"
-                    stroke-width="0.3"
-                    stroke-linecap="round"
-                    stroke-linejoin="round"
                   />
                 </svg>
 
@@ -60,9 +57,6 @@ function Testimonial() {
                     d="M12 2L15.09 8.26L22 9.27L17 14.14L18.18 21.02L12 17.77L5.82 21.02L7 14.14L2 9.27L8.91 8.26L12 2Z"
                     fill="#F4CE14"
                     stroke="#F4CE14"
-                    stroke-width="0.3"
-                    stroke-linecap="round"
-                    stroke-linejoin="round"
                   />
                 </svg>
 
@@ -77,9 +71,6 @@ function Testimonial() {
                     d="M12 2L15.09 8.26L22 9.27L17 14.14L18.18 21.02L12 17.77L5.82 21.02L7 14.14L2 9.27L8.91 8.26L12 2Z"
                     fill="#F4CE14"
                     stroke="#F4CE14"
-                    stroke-width="0.3"
-                    stroke-linecap="round"
-                    stroke-linejoin="round"
                   />
                 </svg>
 
@@ -94,9 +85,6 @@ function Testimonial() {
                     d="M12 2L15.09 8.26L22 9.27L17 14.14L18.18 21.02L12 17.77L5.82 21.02L7 14.14L2 9.27L8.91 8.26L12 2Z"
                     fill="#F4CE14"
                     stroke="#F4CE14"
-                    stroke-width="0.3"
-                    stroke-linecap="round"
-                    stroke-linejoin="round"
                   />
                 </svg>
 
@@ -111,9 +99,6 @@ function Testimonial() {
                     d="M12 2L15.09 8.26L22 9.27L17 14.14L18.18 21.02L12 17.77L5.82 21.02L7 14.14L2 9.27L8.91 8.26L12 2Z"
                     fill="#F4CE14"
                     stroke="#F4CE14"
-                    stroke-width="0.3"
-                    stroke-linecap="round"
-                    stroke-linejoin="round"
                   />
                 </svg>
               </div>
@@ -145,9 +130,6 @@ function Testimonial() {
                     d="M12 2L15.09 8.26L22 9.27L17 14.14L18.18 21.02L12 17.77L5.82 21.02L7 14.14L2 9.27L8.91 8.26L12 2Z"
                     fill="#F4CE14"
                     stroke="#F4CE14"
-                    stroke-width="0.3"
-                    stroke-linecap="round"
-                    stroke-linejoin="round"
                   />
                 </svg>
 
@@ -162,9 +144,6 @@ function Testimonial() {
                     d="M12 2L15.09 8.26L22 9.27L17 14.14L18.18 21.02L12 17.77L5.82 21.02L7 14.14L2 9.27L8.91 8.26L12 2Z"
                     fill="#F4CE14"
                     stroke="#F4CE14"
-                    stroke-width="0.3"
-                    stroke-linecap="round"
-                    stroke-linejoin="round"
                   />
                 </svg>
 
@@ -179,9 +158,6 @@ function Testimonial() {
                     d="M12 2L15.09 8.26L22 9.27L17 14.14L18.18 21.02L12 17.77L5.82 21.02L7 14.14L2 9.27L8.91 8.26L12 2Z"
                     fill="#F4CE14"
                     stroke="#F4CE14"
-                    stroke-width="0.3"
-                    stroke-linecap="round"
-                    stroke-linejoin="round"
                   />
                 </svg>
 
@@ -196,9 +172,6 @@ function Testimonial() {
                     d="M12 2L15.09 8.26L22 9.27L17 14.14L18.18 21.02L12 17.77L5.82 21.02L7 14.14L2 9.27L8.91 8.26L12 2Z"
                     fill="#F4CE14"
                     stroke="#F4CE14"
-                    stroke-width="0.3"
-                    stroke-linecap="round"
-                    stroke-linejoin="round"
                   />
                 </svg>
 
@@ -212,8 +185,6 @@ function Testimonial() {
                   <path
                     d="M12 2L15.09 8.26L22 9.27L17 14.14L18.18 21.02L12 17.77L5.82 21.02L7 14.14L2 9.27L8.91 8.26L12 2Z"
                     stroke="#F4CE14"
-                    stroke-linecap="round"
-                    stroke-linejoin="round"
                   />
                 </svg>
               </div>
@@ -245,9 +216,6 @@ function Testimonial() {
                     d="M12 2L15.09 8.26L22 9.27L17 14.14L18.18 21.02L12 17.77L5.82 21.02L7 14.14L2 9.27L8.91 8.26L12 2Z"
                     fill="#F4CE14"
                     stroke="#F4CE14"
-                    stroke-width="0.3"
-                    stroke-linecap="round"
-                    stroke-linejoin="round"
                   />
                 </svg>
 
@@ -262,9 +230,6 @@ function Testimonial() {
                     d="M12 2L15.09 8.26L22 9.27L17 14.14L18.18 21.02L12 17.77L5.82 21.02L7 14.14L2 9.27L8.91 8.26L12 2Z"
                     fill="#F4CE14"
                     stroke="#F4CE14"
-                    stroke-width="0.3"
-                    stroke-linecap="round"
-                    stroke-linejoin="round"
                   />
                 </svg>
 
@@ -279,9 +244,6 @@ function Testimonial() {
                     d="M12 2L15.09 8.26L22 9.27L17 14.14L18.18 21.02L12 17.77L5.82 21.02L7 14.14L2 9.27L8.91 8.26L12 2Z"
                     fill="#F4CE14"
                     stroke="#F4CE14"
-                    stroke-width="0.3"
-                    stroke-linecap="round"
-                    stroke-linejoin="round"
                   />
                 </svg>
 
@@ -296,9 +258,6 @@ function Testimonial() {
                     d="M12 2L15.09 8.26L22 9.27L17 14.14L18.18 21.02L12 17.77L5.82 21.02L7 14.14L2 9.27L8.91 8.26L12 2Z"
                     fill="#F4CE14"
                     stroke="#F4CE14"
-                    stroke-width="0.3"
-                    stroke-linecap="round"
-                    stroke-linejoin="round"
                   />
                 </svg>
 
@@ -312,8 +271,6 @@ function Testimonial() {
                   <path
                     d="M12 2L15.09 8.26L22 9.27L17 14.14L18.18 21.02L12 17.77L5.82 21.02L7 14.14L2 9.27L8.91 8.26L12 2Z"
                     stroke="#F4CE14"
-                    stroke-linecap="round"
-                    stroke-linejoin="round"
                   />
                 </svg>
               </div>
@@ -345,9 +302,6 @@ function Testimonial() {
                     d="M12 2L15.09 8.26L22 9.27L17 14.14L18.18 21.02L12 17.77L5.82 21.02L7 14.14L2 9.27L8.91 8.26L12 2Z"
                     fill="#F4CE14"
                     stroke="#F4CE14"
-                    stroke-width="0.3"
-                    stroke-linecap="round"
-                    stroke-linejoin="round"
                   />
                 </svg>
 
@@ -362,9 +316,6 @@ function Testimonial() {
                     d="M12 2L15.09 8.26L22 9.27L17 14.14L18.18 21.02L12 17.77L5.82 21.02L7 14.14L2 9.27L8.91 8.26L12 2Z"
                     fill="#F4CE14"
                     stroke="#F4CE14"
-                    stroke-width="0.3"
-                    stroke-linecap="round"
-                    stroke-linejoin="round"
                   />
                 </svg>
 
@@ -379,9 +330,6 @@ function Testimonial() {
                     d="M12 2L15.09 8.26L22 9.27L17 14.14L18.18 21.02L12 17.77L5.82 21.02L7 14.14L2 9.27L8.91 8.26L12 2Z"
                     fill="#F4CE14"
                     stroke="#F4CE14"
-                    stroke-width="0.3"
-                    stroke-linecap="round"
-                    stroke-linejoin="round"
                   />
                 </svg>
 
@@ -395,8 +343,6 @@ function Testimonial() {
                   <path
                     d="M12 2L15.09 8.26L22 9.27L17 14.14L18.18 21.02L12 17.77L5.82 21.02L7 14.14L2 9.27L8.91 8.26L12 2Z"
                     stroke="#F4CE14"
-                    stroke-linecap="round"
-                    stroke-linejoin="round"
                   />
                 </svg>
 
@@ -410,8 +356,6 @@ function Testimonial() {
                   <path
                     d="M12 2L15.09 8.26L22 9.27L17 14.14L18.18 21.02L12 17.77L5.82 21.02L7 14.14L2 9.27L8.91 8.26L12 2Z"
                     stroke="#F4CE14"
-                    stroke-linecap="round"
-                    stroke-linejoin="round"
                   />
                 </svg>
               </div>

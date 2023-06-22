@@ -66,6 +66,9 @@ body {
 .flex-column {
   flex-direction: column;
 }
+.logo {
+  cursor: pointer;
+}
 .btn,
 .btn:link,
 .btn:visited {
@@ -82,7 +85,24 @@ body {
   cursor: pointer;
   background: #f4ce14;
 }
-
+.btn:disabled {
+  background-color: #cccccc;
+  color: #333;
+  cursor: auto;
+}
+.btn:disabled:hover {
+  transform: scale(1);
+  opacity: 1;
+}
+.buttons:disabled {
+  background-color: #cccccc;
+  color: #333;
+  cursor: auto;
+}
+.buttons:disabled {
+  transform: scale(1);
+  opacity: 1;
+}
 .btn:hover,
 .btn:active {
   opacity: 60%;

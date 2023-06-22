@@ -1,0 +1,79 @@
+/* primary-color:#495E57; */
+/* primary-second-color:#F4CE14 */
+/* secondary-color:
+----#EE9972
+----#FBDABB
+*/
+/* highlight-colors:
+---#EDEFEE
+-----#333333 */
+/* tint & shades  
+----#BACAC5
+*/
+/* Meals titles */
+/* spacing
+2/4/8/12/16/24/32/48/64/80/96/128*/
+/* font-size
+10/12/14/16/18/20/24/30/36/44/52/62/74/86/98*/
+
+.confirm .hero-text-box {
+  text-align: center;
+}
+.confirm {
+  /* background-color: #495e57;
+  width: 100vw;
+  height: 100vh;
+  overflow: hidden;
+  margin: 0 auto;
+  margin-top: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center; */
+  position: fixed;
+  padding-top: 9.6rem;
+  width: 100%;
+  height: 100vh;
+  z-index: 100;
+  overflow: hidden;
+  background-color: #495e57;
+  margin: 0 auto;
+}
+.confirm .text-description {
+  font-size: 1.4rem;
+}
+.confirm .buttons {
+  text-align: center;
+}
+.reserve-data {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  max-width: 80rem;
+  margin: 0 auto;
+  padding-top: 2.4rem;
+}
+.icon-box {
+  display: flex;
+  justify-content: center;
+  gap: 0.5rem;
+}
+.icon {
+  display: block;
+}
+.backdrop {
+  position: fixed;
+  top: 0;
+  left: 0;
+  bottom: 0;
+  right: 0;
+  width: 100%;
+  height: 100vh;
+  background: rgba(0, 0, 0, 1);
+}
+.error-message {
+  position: absolute;
+  color: #ff9494;
+  left: 2rem;
+  bottom: 0.5rem;
+  font-size: 1.8rem;
+}

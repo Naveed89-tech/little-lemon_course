@@ -1,0 +1,177 @@
+.reserve {
+  padding: 9.6rem 0;
+  background-color: #edefee !important;
+}
+.reserve .container {
+  background-color: #495e57;
+  padding: 0;
+  border-radius: 1.5rem;
+  background: linear-gradient(to right bottom, #0b4b35, #869590);
+}
+.cta-action .hero-text-box {
+  padding: 3.2rem;
+}
+.branch-titles {
+  margin-bottom: 0;
+  transform: translateY(15px);
+  font-size: 2rem;
+  display: block;
+  color: #edefee;
+  font-family: "Markazi Text", serif;
+  font-size: 4.4rem;
+  font-weight: 500;
+  letter-spacing: -0.5px;
+  line-height: 1.1;
+}
+
+form > p {
+  margin-bottom: 2rem;
+
+  color: #ffffff;
+}
+
+.form_Controls {
+  display: flex;
+  justify-content: space-between;
+  /* align-items: center; */
+
+  padding: 0.4rem;
+  border-radius: 0.5rem;
+  box-shadow: 0, 0, 0, 1rem rgba(0, 0, 0, 0.3);
+}
+.form__control {
+  display: flex;
+  justify-content: space-around;
+  gap: 0.7rem;
+  flex-direction: column;
+  color: #ffffff;
+}
+.reserve-table {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 3.2rem;
+}
+.reserve-table .meal-img {
+  align-self: flex-end;
+}
+.dropdowns {
+  display: flex;
+  flex-direction: column;
+  gap: 4rem;
+  position: relative;
+}
+.dropdown {
+  position: relative;
+  display: inline-block;
+  margin-top: 4rem;
+  width: 35rem;
+  margin: 2rem auto;
+}
+
+.dropdown-menu {
+  opacity: 1;
+  user-select: none;
+  color: red;
+  position: absolute;
+  left: 0;
+  top: calc(100% + 0.25rem);
+  background-color: #ffffff;
+  padding: 0.75rem;
+  width: 100%;
+  border-radius: 0.25rem;
+  box-shadow: 0 2px 5px 0 rgba(0, 0, 0, 0.1);
+  z-index: 111;
+  background-color: yellow;
+}
+/* .buttons.active + .dropdown-menu {
+ 
+  opacity: 1;
+} */
+.dropdown-menu ul {
+  list-style: none;
+  display: flex;
+  flex-direction: column;
+  gap: 2.4rem;
+  padding: 1.2rem 2.4rem;
+}
+.dropdown-menu ul li {
+  list-style: none;
+  font-size: 1.6rem;
+  color: #333333;
+  cursor: pointer;
+}
+.dropdown-menu ul li:hover {
+  background-color: #555555;
+  padding: 0;
+}
+
+.buttons .selected,
+.seprator {
+  pointer-events: none;
+}
+.selection {
+  position: absolute;
+  top: -3rem;
+  left: 0;
+  color: #ffffff;
+  font-size: 1.8rem;
+}
+.selected {
+  color: #333333;
+}
+.seprator {
+  margin-left: 8rem;
+}
+/* button {
+  background-color: #a2d2ff;
+  margin-left: 1rem;
+  float: right;
+  margin-top: 1rem;
+} */
+.confirmed {
+  background-color: #f4ce14;
+  font-size: 1.8rem;
+  width: 100%;
+}
+input {
+  border: none;
+  border-radius: 0.2rem;
+  padding: 0.5rem;
+}
+input:focus {
+  outline: none;
+}
+/* select {
+  border: none;
+  border-radius: 0.2rem;
+  padding: 0.5rem;
+}
+option {
+  border: none;
+  border-radius: 0.2rem;
+  padding: 0.5rem 4rem;
+} */
+.options {
+  border: 1px solid #e5e5e5;
+  padding: 1rem;
+  background-color: #fefcee;
+  max-width: 40rem;
+}
+
+select {
+  font-size: 14px;
+  border: none;
+  width: 100%;
+  background-color: #fefcee;
+}
+.cta {
+  display: grid;
+  grid-template-columns: 2fr 1fr;
+  column-gap: 2.4rem;
+  overflow: hidden;
+}
+
+.cta-image {
+  overflow: hidden;
+}

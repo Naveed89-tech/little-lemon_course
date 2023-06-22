@@ -1,0 +1,23 @@
+/* .btn,
+.btn:link,
+.btn:visited {
+  text-decoration: none;
+  display: inline-block;
+  padding: 1.6rem 3.2rem;
+  text-transform: capitalize;
+  border: none;
+  font-size: 1rem;
+  cursor: pointer;
+  padding: 0.5rem 1rem;
+  border-radius: 0.2rem;
+}
+.btn:hover,
+.btn:active {
+  background-color: #0e8aff;
+  transition: all 0.4s ease;
+  color: #fff;
+}
+.btn:focus {
+  outline: none;
+  box-shadow: 0 0 0 0.2rem rgba(162, 210, 255, 0.3);
+} */

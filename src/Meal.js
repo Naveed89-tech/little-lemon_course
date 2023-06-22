@@ -12,7 +12,7 @@ function Meal() {
       <div className="container">
         <div className="meal-box">
           <h2 className="heading-secondary">This weekend specials!</h2>
-          <a href="#" class="btn">
+          <a href="#" className="btn">
             Online Menu
           </a>
           {/* <!-- using anchor instead of button element due to button should be used for action purpose  --> */}
@@ -25,18 +25,18 @@ function Meal() {
               className="meal-image"
             />
             <div className="meal-content">
-              <span class="tag tag--vegtarian">Vegetarian</span>
+              <span className="tag tag--vegtarian">Vegetarian</span>
               <div className="title-price">
                 <p className="meal-title">Greek salad</p>
                 <strong className="meal-price">$12.99</strong>
               </div>
-              <p class="text-description hero-description">
+              <p className="text-description hero-description">
                 The famous greek salad of crispy lettuce, peppers, olives and
                 our Chicago style feta cheese, garnished with crunchy garlic and
                 rosemary croutons.
               </p>
               <div className="bucket">
-                <a href="#" class="btn delivery">
+                <a href="#" className="btn delivery">
                   Order a Delivery
                   <span>
                     <img
@@ -53,18 +53,18 @@ function Meal() {
           <div className="meal-card" id="meal-card">
             <img src={bruchetta} alt="bruchetta " className="meal-image" />
             <div className="meal-content">
-              <span class="tag tag--vegan">vegan</span>
-              <span class="tag tag--peluo">peluo</span>
+              <span className="tag tag--vegan">vegan</span>
+              <span className="tag tag--peluo">peluo</span>
               <div className="title-price">
                 <p className="meal-title">Bruchetta</p>
                 <strong className="meal-price">$5.99</strong>
               </div>
-              <p class="text-description hero-description">
+              <p className="text-description hero-description">
                 Our Bruschetta is made from grilled bread that has been smeared
                 with garlic and seasoned with salt and olive oil.
               </p>
               <div className="bucket">
-                <a href="#" class="btn delivery">
+                <a href="#" className="btn delivery">
                   Order a Delivery
                   <span>
                     <img
@@ -86,19 +86,19 @@ function Meal() {
               className="meal-image"
             />
             <div className="meal-content">
-              <span class="tag tag--pudding">PUDDINGS</span>
-              <span class="tag tag--dessert">DESSERTS</span>
+              <span className="tag tag--pudding">PUDDINGS</span>
+              <span className="tag tag--dessert">DESSERTS</span>
               <div className="title-price">
                 <p className="meal-title">Lemon Dessert</p>
                 <strong className="meal-price">$5.00</strong>
               </div>
-              <p class="text-description hero-description">
+              <p className="text-description hero-description">
                 This comes straight from grandma’s recipe book, every last
                 ingredient has been sourced and is as authentic as can be
                 imagined.
               </p>
               <div className="bucket">
-                <a href="#" class="btn delivery">
+                <a href="#" className="btn delivery">
                   Order a Delivery
                   <span>
                     <img
