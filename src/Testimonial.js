@@ -16,7 +16,7 @@ function Testimonial() {
           <h2 className="heading-secondary">Once You Try,You Can'nt Go Back</h2>
         </div>
 
-        <div className="testimonials">
+        <div className="testimonials grid--four--col">
           {/* first testimonial  */}
           <div className="testimonial-box">
             <figure className="testimonial-image">

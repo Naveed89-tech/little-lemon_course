@@ -15,11 +15,9 @@
   color: #f4ce14;
 }
 .testimonials {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-
-  column-gap: 2.4rem;
+  
+  display: grid;
+  gap: 2.4rem;
 }
 .testimonial-heading {
   align-self: center;

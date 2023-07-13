@@ -175,3 +175,12 @@ select {
 .cta-image {
   overflow: hidden;
 }
+@media (max-width: 34.25em) { 
+ .cta {
+  grid-template-columns: 1fr;
+  
+ }
+ .cta-image {
+  display: none;
+ }
+}

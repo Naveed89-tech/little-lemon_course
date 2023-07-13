@@ -77,3 +77,9 @@
   bottom: 0.5rem;
   font-size: 1.8rem;
 }
+@media (max-width: 34.25em) { 
+  .reserve-data {
+  align-items: flex-start;
+ flex-direction: column;
+  }
+}

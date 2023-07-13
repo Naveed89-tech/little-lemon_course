@@ -102,3 +102,33 @@
   font-size: 1.8rem;
   cursor: pointer;
 }
+
+@media (max-width: 59em) {
+  /* 59*16=944px */
+  .grid--footer  {
+    grid-template-columns: 1fr 1fr;
+    /* grid-template-rows: 1fr 1fr 1fr; */
+    position: relative;
+    }
+.logo-col {
+  grid-column: 1 / -1;
+}
+
+.footer-copyright {
+  position: absolute;
+  bottom: 2rem;
+  right: 1rem;
+}
+.social-link  {
+  gap: 2.4rem;
+}
+}
+
+/*****************/
+/* Landscape tablets*
+548px==548/16=34.25em/
+/*****************/
+@media (max-width: 34.25em) {
+
+
+}

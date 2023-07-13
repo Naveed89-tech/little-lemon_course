@@ -79,3 +79,10 @@ select {
   border: 1px solid #FDA29B;
   
 }
+
+@media (max-width: 34.25em) { 
+  .form {
+ display: flex;
+ flex-direction: column;
+  }
+}
