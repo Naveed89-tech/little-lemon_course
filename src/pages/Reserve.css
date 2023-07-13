@@ -176,7 +176,10 @@ select {
   overflow: hidden;
 }
 @media (max-width: 34.25em) { 
- .cta {
+ .reserve {
+  padding: 0
+ }
+  .cta {
   grid-template-columns: 1fr;
   
  }
