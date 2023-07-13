@@ -82,4 +82,10 @@
   align-items: flex-start;
  flex-direction: column;
   }
+  .reserve-data {
+    max-width: 30rem;
+    padding-top: 1.2rem;
+    margin: 0;
+    padding: 1.2rem;
+  }
 }
