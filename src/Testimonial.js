@@ -5,7 +5,7 @@ import testimonialOne from "./images/1.jpg";
 import testimonialTwo from "./images/2.jpg";
 import testimonialThree from "./images/3.jpg";
 import testimonialFour from "./images/4.jpg";
-import riders from "./images/riders.svg";
+
 
 function Testimonial() {
   return (
