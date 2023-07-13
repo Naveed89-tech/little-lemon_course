@@ -88,4 +88,14 @@
     margin: 0;
     padding: 1.2rem;
   }
+  .confirm .seondary-heading {
+    margin-bottom: 1.2rem !important;
+
+  }
+  .confirm .text-description {
+      margin-bottom: 1.2rem !important;
+  }
+  .icon-box {
+     gap: 1.8rem;
+  }
 }

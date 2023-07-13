@@ -15,7 +15,7 @@ function Confirm(props) {
       <section className=" confirm ">
         <div className="container">
           <div className="hero-text-box">
-            <h1 className="heading-primary congrats">Congratulations</h1>
+            <h1 className="heading-secondary congrats">Congratulations</h1>
             <p className="text-description ">
               Your selected Reservation at Little Lemon is booked successfully{" "}
             </p>
