@@ -8,7 +8,7 @@ import bruchetta from "./images/bruchetta.jpg";
 
 function Meal() {
   return (
-    <section className="section-meal ">
+    <section className="section-meal " id="section-meal">
       <div className="container">
         <div className="meal-box">
           <h2 className="heading-secondary">This weekend specials!</h2>

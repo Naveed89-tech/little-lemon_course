@@ -16,7 +16,7 @@ function Header() {
         <Link to="/" className="logo">
           <Logo />
         </Link>
-        <Desktop />
+        <Desktop onClick={handleNavigation} />
         <SmallDevice onClick={handleNavigation} />
       </nav>
     </header>

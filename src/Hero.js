@@ -14,7 +14,7 @@ return (
     animate={{ width: "100%" }}
     exit={{ x: window.innerWidth, transition: { duration: 0.5 } }}
   >
-    <div className="hero ">
+    <div className="hero " id="home">
       <div className="hero-text-box">
         <h1 className="heading-primary">Little Lemon</h1>
         <span className="branch-title">Chicago</span>
