@@ -130,5 +130,21 @@
 /*****************/
 @media (max-width: 34.25em) {
 
-
+  .grid--footer  {
+    grid-template-columns: 1fr ;
+    /* grid-template-rows: 1fr 1fr 1fr; */
+  gap: 3.2rem;
+    }
+    .logo-col {
+      margin-bottom: 3.2rem;
+    }
+    .address {
+      grid-row: 5 / 6;
+    }
+    .footer-heading {
+      margin: 0;
+    }
+    .footer-nav {
+      gap: .4rem;
+    }
 }
